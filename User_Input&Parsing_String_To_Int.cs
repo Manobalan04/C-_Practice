@@ -19,6 +19,18 @@
             Console.WriteLine("Simple Interest:"+si);
 
 
+            // another method
+            Console.Write("Enter value a :");
+            String m=Console.ReadLine();
+            Console.Write("Enter value a :");
+            String s=Console.ReadLine();
+ 
+            int j = int.Parse(m);
+            int k = int.Parse(s);
+            int l = j + k;
+            Console.WriteLine("Total :"+l);
+
+
         }
     }
 }
